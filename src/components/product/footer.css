@@ -1,0 +1,140 @@
+.footer {
+    background-color: #00843e;
+    color: #fff;
+    padding-top: 60px; /* Отступ сверху */
+    padding-bottom: 60px; /* Отступ снизу */
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .contacts {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .contacts li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contacts li i {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .email,
+  .phone {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffffff;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .partners {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .partners li {
+    margin-bottom: 10px;
+  }
+  
+  .service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .service img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .service-info h4 {
+    font-size: 16px;
+    margin: 0 0 5px 0;
+  }
+  
+  .service-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .bottom-bar {
+    background-color: #016b32;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .bottom-bar p {
+    margin: 0;
+    margin-right: 130px;
+  }
+  
+  .bottom-bar nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .bottom-bar nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .bottom-bar nav a:hover {
+    color: #dddddd;
+  }
+  

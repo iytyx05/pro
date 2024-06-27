@@ -1,0 +1,310 @@
+/* homePage.css */
+
+/* Стили для слайдера */
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Пример ограничения ширины для контейнера слайдера */
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  .slide {
+    display: none;
+    text-align: center;
+    position: relative;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide .slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .slide .slide-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .slide .slide-content p {
+    font-size: 16px;
+  }
+  
+  .slide .slide-content .logo {
+    width: 80px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .slide.show {
+    display: block;
+  }
+  
+  .slide.hide {
+    display: none;
+  }
+  
+  /* Кнопки навигации для слайдера */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 15px;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+/* !______________Двзсщзвьсзьцсуьц */
+
+  .show {
+    display: block;
+  }
+  
+  .header-line-3 {
+    display: flex;
+    justify-content: space-around; /* Center elements with equal space around them */
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    gap: 20px; /* Add space between elements */
+  }
+  
+  .box,
+  .box2,
+  .box3 {
+    background-color: #00843e;
+    flex: 1;
+    min-width: 250px; /* Ensure boxes don’t shrink too small */
+    max-width: 350px; /* Ensure boxes don’t grow too large */
+    height: 220px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .box2 {
+    background-color: #0a8f48;
+  }
+  
+  .box3 {
+    background-color: #26955a;
+  }
+  
+  .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .phone {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+ 
+
+  .header-line-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .box {
+    background-color: #00843e;
+    width: 350px;
+    height: 220px;
+    color: white;
+    padding: 20px;
+    /* margin: 10px; */
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .box2 {
+    background-color: #0a8f48;
+    width: 350px;
+    height: 220px;
+    color: white;
+    padding: 20px;
+    /* margin: 10px; */
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .box3 {
+    background-color: #26955a;
+    width: 350px;
+    height: 220px;
+    color: white;
+    padding: 20px;
+    /* margin: 10px; */
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .phone {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  p span {
+    display: block;
+    margin-top: 5px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .advantage {
+    width: 45%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .advantage img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .advantage {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .img1 {
+    position: relative;
+    right: 230px;
+  }
+  .img2 {
+    position: relative;
+    right: 230px;
+  }
+  .img3 {
+    position: relative;
+    right: 230px;
+  }
+  .img4 {
+    position: relative;
+    right: 230px;
+  }
+  
+  .services-container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .service p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .service h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+    
